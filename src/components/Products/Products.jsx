@@ -40,7 +40,7 @@ const Products = () => {
 
   if (!products) {
     return (
-      <div className="spinner-wrapper">
+      <div className="spinner-wrapper" data-testid="spinner">
         <ClipLoader
           color='blue'
           loading
